@@ -1,0 +1,32 @@
+:root {
+  --ink: #16121d;
+  --paper: #ece6dc;
+  --muted: #a99fb0;
+  --ember: #e8a24a;
+  --line: #3a3344;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Hiragino Sans', 'Yu Gothic', system-ui, sans-serif;
+  background: radial-gradient(120% 80% at 50% -10%, rgba(120, 80, 30, 0.25), transparent 60%), var(--ink);
+  color: var(--paper);
+  line-height: 1.8;
+  min-height: 100vh;
+}
+main { max-width: 720px; margin: 0 auto; padding: 3rem 1.3rem 5rem; }
+a { color: var(--ember); }
+.brand {
+  font-family: 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  letter-spacing: 0.12em;
+  font-size: 1.4rem;
+  color: var(--ember);
+  text-decoration: none;
+}
+h1 { font-size: 1.6rem; margin: 1.5rem 0 0.5rem; }
+h2 { font-size: 1.05rem; margin: 2rem 0 0.4rem; color: var(--ember); }
+p, li { color: var(--paper); }
+.muted { color: var(--muted); font-size: 0.85rem; }
+ul { padding-left: 1.2rem; }
+hr { border: none; border-top: 1px solid var(--line); margin: 2rem 0; }
+.back { display: inline-block; margin-top: 2rem; font-size: 0.9rem; }
