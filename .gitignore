@@ -7,3 +7,4 @@ dist/
 .env.*
 !.env.example
 fixtures/golden__data.json
+.vercel
