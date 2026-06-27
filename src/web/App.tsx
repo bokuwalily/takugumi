@@ -119,7 +119,7 @@ export function App() {
       <footer className="foot">
         <span>卓組 — 個人開発の非公式ツール（CCFOLIA運営とは無関係）</span>
         <nav className="foot__links">
-          <a href="mailto:bokuwalily@gmail.com">お問い合わせ</a>
+          <a href="mailto:contact@bokuwalily.com">お問い合わせ</a>
           <a href="/privacy.html">プライバシー</a>
           <a href="/terms.html">利用規約</a>
         </nav>
